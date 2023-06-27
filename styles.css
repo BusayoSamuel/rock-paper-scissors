@@ -3,12 +3,14 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    margin-bottom: 100px;
 }
 
 .flex-container-2{
     display: flex;
     justify-content: center;
     text-align: center;
+    
 }
 
 .player-1-container{
@@ -45,6 +47,40 @@ img{
     height: 400px;
 }
 
+footer{
+    font-size: 20px;
+}
+
 h1,h2, h3, footer{
     color: #A5C9CA;
+}
+
+@media (max-width: 480px) {
+    .flex-container-1{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 50px;
+    }
+
+    h1{
+        font-size: 25px;
+    }
+    
+    h2{
+        font-size: 17px;
+    }
+    
+    h3{
+        font-size: 15px;
+    }
+    
+    img{
+        height: 100px;
+    } 
+    
+    footer{
+        font-size: 15px;
+    }
 }
